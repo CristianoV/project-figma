@@ -1,0 +1,21 @@
+body {
+  background: #22272D;
+  display: flex;
+  justify-content: center;
+}
+
+body, input, textarea, select, button{
+  font: 400 1rem 'Merriweather'
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
